@@ -36,7 +36,7 @@ export const AboutSection: FC = () => {
           {/* Right Column */}
           <div className="mt-8 lg:mt-0">
             <p className="text-xl text-gray-400 leading-relaxed">
-              We are a three-person freelance development group that works
+              We are a Four-person freelance development group that works
               together to design, build, and deliver reliable software
               solutions. Instead of working alone, we collaborate as a focused
               team—sharing responsibility, ideas, and execution.
