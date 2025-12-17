@@ -13,7 +13,7 @@ export const Logo: FC<LogoProps> = ({ className }) => {
       src="/logo1.png" 
       alt="Lance Team Logo"
       className={cn(
-        "h-8 w-auto bg-transparent object-contain",
+        "h-17 w-auto bg-transparent object-contain",
         className
       )}
       draggable={false}

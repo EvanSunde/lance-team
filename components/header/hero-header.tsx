@@ -35,7 +35,7 @@ export const HeroHeader: FC = () => {
         <div className="px-4 py-4 flex justify-between items-center">
           
           {/* LOGO */}
-          <a href="/" className="flex items-center gap-2">
+          <a href="/" className="flex items-center h-8 gap-2">
             <Logo />
           </a>
 
