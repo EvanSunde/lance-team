@@ -37,10 +37,10 @@ export const HeroSection: FC = () => {
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl">
           <h1 className="text-balance text-5xl font-extrabold text-white sm:text-6xl lg:text-8xl">
-            QUANTUM MINDS
+            LANCE-TEAM
           </h1>
 
-          <h2 className="mt-2 text-balance text-3xl font-extrabold text-white sm:text-4xl lg:text-6xl">
+          <h2 className="mt-2 text-balance text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
             Freelance Development, Elevated.
           </h2>
 
