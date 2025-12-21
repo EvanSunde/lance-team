@@ -43,7 +43,7 @@ export const Footer: FC = () => {
             All rights reserved.
           </span>
 
-          <div className="flex gap-6">
+          {/* <div className="flex gap-6">
             <a href="#" aria-label="Facebook" className="hover:text-blue-400">
               <Facebook size={18} />
             </a>
@@ -53,7 +53,7 @@ export const Footer: FC = () => {
             <a href="#" aria-label="Instagram" className="hover:text-blue-400">
               <Instagram size={18} />
             </a>
-          </div>
+          </div> */}
         </div>
 
       </div>
