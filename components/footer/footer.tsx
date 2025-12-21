@@ -39,7 +39,7 @@ export const Footer: FC = () => {
         {/* ================= FOOTER BAR ================= */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6 text-sm">
           <span className="text-center sm:text-left">
-            © 2024 <span className="text-white font-semibold">Quantum Minds</span>.  
+            © 2024 <span className="text-white font-semibold">LANCE-TEAM</span>.  
             All rights reserved.
           </span>
 
