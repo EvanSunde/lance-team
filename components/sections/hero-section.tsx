@@ -57,12 +57,12 @@ export const HeroSection: FC = () => {
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
           {/* View Projects */}
             <a
-            href="#projects"
+            href="#services"
             className="inline-flex items-center justify-center rounded-xl
                bg-blue-500 px-6 py-3 text-base font-semibold text-white
                transition hover:bg-blue-600"
              >
-              View Projects
+              Our Services
             </a>
 
              {/* Contact Us */}

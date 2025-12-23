@@ -5,7 +5,7 @@ export interface HeaderMenuItem {
 
 export const menuItems: HeaderMenuItem[] = [
   { name: "Home", href: "#" },
-  
+  {name: "Services", href: "#services" },
   { name: "Team", href: "#team" },
   { name: "About", href: "#about" },
   { name: "Contact", href: "#contact" },
