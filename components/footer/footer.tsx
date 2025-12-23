@@ -1,7 +1,7 @@
 "use client";
 
 import { FC } from "react";
-import { Mail, MapPin, ChevronRight, Globe, Github, Linkedin } from "lucide-react";
+import { Mail, MapPin, ChevronRight, Globe, Github, Linkedin, X } from "lucide-react";
 
 export const Footer: FC = () => {
   const currentYear = new Date().getFullYear();
@@ -77,7 +77,7 @@ export const Footer: FC = () => {
                 href="mailto:lanceteam12@gmail.com"
                 className="flex items-center gap-3 text-blue-400 hover:text-blue-300 transition-colors"
               >
-                <Mail size={30} />
+                <Mail size={20} />
                 <span className="text-xl font-medium">lanceteam12@gmail.com</span>
               </a>
               <div className="pt-2">
@@ -105,9 +105,9 @@ export const Footer: FC = () => {
             <a href="#" className="p-2 bg-gray-900 rounded-lg hover:bg-blue-900/30 hover:text-blue-400 transition-all border border-gray-800">
               <Github size={18} />
             </a>
-            {/* <a href="#" className="p-2 bg-gray-900 rounded-lg hover:bg-blue-900/30 hover:text-blue-400 transition-all border border-gray-800">
-              <Twitter size={18} />
-            </a> */}
+            <a href="#" className="p-2 bg-gray-900 rounded-lg hover:bg-blue-900/30 hover:text-blue-400 transition-all border border-gray-800">
+              <X size={18} />
+            </a> 
           </div>
         </div>
       </div>
