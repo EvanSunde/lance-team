@@ -16,7 +16,7 @@ export const Logo: FC<LogoProps> = ({ className }) => {
         "h-17 w-auto bg-transparent object-contain rounded-full",
         className
       )}
-      draggable={false}
+      draggable={true}
     />
   );
 };

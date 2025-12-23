@@ -102,7 +102,7 @@ export const Footer: FC = () => {
             <a href="#" className="p-2 bg-gray-900 rounded-lg hover:bg-blue-900/30 hover:text-blue-400 transition-all border border-gray-800">
               <Linkedin size={18} />
             </a>
-            <a href="#" className="p-2 bg-gray-900 rounded-lg hover:bg-blue-900/30 hover:text-blue-400 transition-all border border-gray-800">
+            <a href="https://github.com/lance-team" className="p-2 bg-gray-900 rounded-lg hover:bg-blue-900/30 hover:text-blue-400 transition-all border border-gray-800">
               <Github size={18} />
             </a>
             <a href="#" className="p-2 bg-gray-900 rounded-lg hover:bg-blue-900/30 hover:text-blue-400 transition-all border border-gray-800">
