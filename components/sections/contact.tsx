@@ -23,9 +23,9 @@ export const ContactSection: FC = () => {
     setLoading(true);
 
     // Replace these 3 strings with your actual EmailJS IDs
-    const SERVICE_ID = "YOUR_SERVICE_ID";
-    const TEMPLATE_ID = "YOUR_TEMPLATE_ID";
-    const PUBLIC_KEY = "YOUR_PUBLIC_KEY";
+    const SERVICE_ID = "service_4t7k0pq";
+    const TEMPLATE_ID = "template_8t2i3pn";
+    const PUBLIC_KEY = "dRkFQQMLo24c7zQyG";
 
     if (form.current) {
       emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
