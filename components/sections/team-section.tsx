@@ -1,6 +1,7 @@
 "use client";
 
 import { FC } from "react";
+import Image from "next/image";
 // Assuming you have a standard Link component or use next/link
 import { Link } from "../ui/link"; 
 
@@ -71,10 +72,11 @@ export const TeamSection: FC = () => {
             >
               {/* Image Container */}
               <div className="relative h-66 w-66 mb-8">
-                <img
+                <Image
                   src={member.avatar}
                   alt={member.name}
-                  className="h-full w-full rounded-full object-cover
+                  fill
+                  className="rounded-full object-cover
                              grayscale transition duration-500 group-hover:grayscale-0 ring-2 ring-gray-700 group-hover:ring-blue-400"
                 />
               </div>

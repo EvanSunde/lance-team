@@ -40,35 +40,15 @@ export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: ButtonVariant;
   size?: ButtonSize;
-  asChild?: boolean;
 }
 
-// radix-ui साठी सोपा Slot रिप्लेसमेंट
-const DefaultSlot = React.forwardRef<
-  HTMLButtonElement | HTMLAnchorElement,
-  React.PropsWithChildren<{ className?: string; [key: string]: any }>
->(({ children, className, ...props }, ref) => {
-  if (React.isValidElement(children)) {
-    const childProps = children.props as { className?: string; [key: string]: any };
-    return React.cloneElement(children, {
-      className: cn(childProps.className, className),
-      ref,
-      ...props,
-    } as any);
-  }
-  return <button ref={ref as React.Ref<HTMLButtonElement>} className={className} {...(props as React.ButtonHTMLAttributes<HTMLButtonElement>)}>{children}</button>;
-});
 
-DefaultSlot.displayName = "DefaultSlot";
-
-
-export const Button = React.forwardRef<HTMLButtonElement | HTMLAnchorElement, ButtonProps>(
-  ({ className, variant = "default", size = "default", asChild = false, ...props }, ref) => {
-    const Component = asChild ? DefaultSlot : "button";
+export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
+  ({ className, variant = "default", size = "default", ...props }, ref) => {
     return (
-      <Component
+      <button
         className={cn(buttonVariants(variant, size), className)}
-        ref={ref as any}
+        ref={ref}
         {...props}
       />
     );

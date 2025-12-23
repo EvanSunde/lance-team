@@ -1,15 +1,9 @@
 "use client";
-import { Link } from "../ui/link"; 
 
 import { FC } from "react";
+import Image from "next/image";
 import { 
-  Server, 
-  Code, 
-  Palette, 
-  Cpu, 
-  Zap, 
-  Layers, 
-  Database 
+  Server
 } from "lucide-react";
 
 const services = [
@@ -81,13 +75,14 @@ export const ServicesSection: FC = () => {
             >
               {/* Optional: Theme Picture Placeholder */}
               {/* Once you generate your images, replace this div with an <img /> */}
-              <div className="w-full h-60 mb-6 bg-gray-900/50 rounded-lg overflow-hidden flex items-center justify-center border border-gray-700 group-hover:border-blue-400/30 transition-colors">
+              <div className="w-full h-60 mb-6 bg-gray-900/50 rounded-lg overflow-hidden flex items-center justify-center border border-gray-700 group-hover:border-blue-400/30 transition-colors relative">
                 <div className="text-blue-400 opacity-60 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500">
                   {service.avatar ? (
-                    <img 
+                    <Image 
                       src={service.avatar}
                       alt={service.title}
-                      className="w-full h-full object-cover"
+                      fill
+                      className="object-cover"
                     />
                   ) : 
                   (<Server size={48} />)

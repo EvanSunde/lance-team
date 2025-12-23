@@ -2,10 +2,6 @@
 
 import { FC } from "react";
 
-const cn = (...classes: (string | boolean | null | undefined)[]) => {
-  return classes.filter(Boolean).join(" ");
-};
-
 export const AboutSection: FC = () => {
   const captionStyle =
     "absolute top-0 left-0 -translate-y-1/2 bg-gray-900 px-6 text-sm text-blue-400 font-semibold";

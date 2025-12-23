@@ -1,7 +1,6 @@
 "use client";
 
 import { FC } from "react";
-import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 // Reusable component for the abstract glowing circles
@@ -18,7 +17,7 @@ const AbstractCircle: FC<{ className: string, size?: string }> = ({ className, s
 
 export const HeroSection: FC = () => {
   return (
-    <section className="relative overflow-hidden bg-gray-950 pt-36 pb-24 sm:pt-48 sm:pb-36 min-h-screen flex items-center scroll-snap-align-start">
+    <section id="home" className="relative overflow-hidden bg-gray-950 pt-36 pb-24 sm:pt-48 sm:pb-36 min-h-screen flex items-center scroll-snap-align-start">
       {/* Abstract Circles Background */}
       <div className="absolute inset-0 z-0">
         {/* Large Blue Glow Top-Left */}
