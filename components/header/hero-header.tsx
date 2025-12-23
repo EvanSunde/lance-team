@@ -32,7 +32,7 @@ export const HeroHeader: FC = () => {
             : "bg-transparent"
         )}
       >
-        <div className="px-4 py-4 flex justify-between items-center">
+        <div className="px-2 py-4 flex justify-between items-center">
           
           {/* LOGO */}
           <a href="/" className="flex items-center h-8 gap-2">
