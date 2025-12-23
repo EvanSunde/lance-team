@@ -4,6 +4,7 @@ import { TeamSection } from "@/components/sections/team-section";
 import { Footer } from "@/components/footer/footer";
 import { AboutSection } from "./sections/about";
 import { ServicesSection } from "./sections/service";
+import { ContactSection } from "./sections/contact";
 
 export default function App() {
   return (
@@ -14,7 +15,7 @@ export default function App() {
       <ServicesSection />
       <TeamSection />
       <AboutSection />
-
+      <ContactSection/>
       <Footer />
     </div>
   );

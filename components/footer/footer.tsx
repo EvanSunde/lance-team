@@ -8,8 +8,8 @@ export const Footer: FC = () => {
 
   return (
     <footer
-      id="contact"
-      className="bg-gray-950 border-t border-gray-800 pt-24 pb-12 text-gray-400"
+      id="footer"
+      className="bg-gray-950 border-t border-gray-800 pt-24 pb-12 text-gray-400 "
     >
       <div className="mx-auto max-w-7xl px-6">
         
