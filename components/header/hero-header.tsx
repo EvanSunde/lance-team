@@ -101,7 +101,7 @@ export const HeroHeader: FC = () => {
                         setMenuState(false);
                       }}
                       className={cn(
-                        "relative text-[10px] font-black tracking-[0.2em] uppercase px-5 py-2.5 rounded-full transition-all flex items-center justify-center gap-2",
+                        "relative text-sm font-black tracking-[0.2em] uppercase px-5 py-2.5 rounded-full transition-all flex items-center justify-center gap-2",
                         isActive 
                           ? "text-blue-400 border border-blue-500/50 bg-blue-500/10 shadow-[0_0_20px_rgba(59,130,246,0.2)] animate-pulse" 
                           : "text-gray-500 hover:text-white border border-transparent"
